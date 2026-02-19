@@ -11,3 +11,11 @@ console.log('Base Name:', baseName);
 
 //Get the extension (likely empty for 'home')
 console.log('Extension:', path.extname(homePath));
+
+//Get the directory name of the home path
+const dirName = path.dirname(homePath);
+console.log('Directory Name:', dirName);
+
+//Normalize a path with redundant segments
+const normalizedPath = path.normalize('/home//user/../home');
+console.log('Normalized Path:', normalizedPath);
