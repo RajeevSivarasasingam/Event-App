@@ -19,3 +19,5 @@ console.log('Directory Name:', dirName);
 //Normalize a path with redundant segments
 const normalizedPath = path.normalize('/home//user/../home');
 console.log('Normalized Path:', normalizedPath);
+
+//Resolve a relative path to an absolute path
