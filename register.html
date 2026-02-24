@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register – Campus Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <div class="form-logo">🎓</div>
+    <h2>Create Account</h2>
+
+    <input type="text"     id="name"     placeholder="Full Name">
+    <input type="email"    id="email"    placeholder="Email Address">
+    <input type="password" id="password" placeholder="Password">
+
+    <select id="role">
+        <option value="student">Student</option>
+        <option value="admin">Admin</option>
+    </select>
+
+    <button onclick="register()">Register</button>
+
+    <div class="form-link">
+        Already have an account? <a href="login.html">Login here</a>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
