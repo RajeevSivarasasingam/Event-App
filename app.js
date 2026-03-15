@@ -4,7 +4,7 @@ const API_BASE = 'http://localhost:5000/api';
 
  
 let currentUser = JSON.parse(localStorage.getItem('user'));
-let authToken = localStorage.getItem('token');
+let authToken = localStorage.getItem('token'); 
 
  
 let msgBox;
